@@ -1,0 +1,130 @@
+.CodeMirror {
+    font-family: 'Source Code Pro';
+    height: 60%;
+    color: white;
+    direction: ltr;
+    background-color: #131518;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 0px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+    border:1px solid #30363d;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.CodeMirror-scrollbar-filler,
+.CodeMirror-gutter-filler {
+    background-color: #000000;
+}
+
+.CodeMirror-gutters {
+    border-width: 0px 1px 0px 0px;
+    border-right: 1px solid #30363d;
+    background-color: #131518;
+    white-space: nowrap;
+    padding-right: 5px;
+}
+
+.CodeMirror-linenumber {
+    min-width: 20px;
+    text-align: right;
+    color: #c9d1d9;
+    white-space: nowrap;
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: none;
+    width: 1;
+}
+
+.cm-s-nictophilia .cm-keyword {
+    color: #D46C6C;
+  }
+  
+  .cm-s-nictophilia .cm-operator {
+    color: #D46C6C;
+  }
+  
+  .cm-s-nictophilia .cm-variable-2 {
+    color: #81C5DA;
+  }
+  
+  
+  .cm-s-nictophilia .cm-variable-3,
+  .cm-s-nictophilia .cm-type {
+    color: #f07178;
+  }
+  
+  .cm-s-nictophilia .cm-builtin {
+    color: #FFCB6B;
+  }
+  
+  .cm-s-nictophilia .cm-atom {
+    color: #A99BE2;
+  }
+  
+  .cm-s-nictophilia .cm-number {
+    color: #7CA4C0;
+  }
+  
+  .cm-s-nictophilia .cm-def {
+    color: #F5DFA5;
+  }
+  
+  .cm-s-nictophilia .CodeMirror-line .cm-def ~ .cm-def {
+    color: #81C5DA;
+  }
+  
+  .cm-s-nictophilia .cm-string {
+    color: #B2E4AE;
+  }
+  
+  .cm-s-nictophilia .cm-string-2 {
+    color: #f07178;
+  }
+  
+  .cm-s-nictophilia .cm-comment {
+    color: #3F445A;
+  }
+  
+  .cm-s-nictophilia .cm-variable {
+    color: #8E95B4;
+  }
+  
+  .cm-s-nictophilia .cm-tag {
+    color: #FF5370;
+  }
+  
+  .cm-s-nictophilia .cm-meta {
+    color: #FFCB6B;
+  }
+  
+  .cm-s-nictophilia .cm-attribute {
+    color: #C792EA;
+  }
+  
+  .cm-s-nictophilia .cm-property {
+    color: #81C5DA;
+  }
+  
+  .cm-s-nictophilia .cm-qualifier {
+    color: #DECB6B;
+  }
+  
+  .cm-s-nictophilia .cm-variable-3,
+  .cm-s-nictophilia .cm-type {
+    color: #DECB6B;
+  }
+  
+  
+  .cm-s-nictophilia .cm-error {
+    color: rgba(255, 255, 255, 1.0);
+    background-color: #FF5370;
+  }
+  
+  .cm-s-nictophilia .CodeMirror-matchingbracket {
+    text-decoration: underline;
+    color: white !important;
+  }
